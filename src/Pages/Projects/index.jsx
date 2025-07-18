@@ -53,7 +53,7 @@ function Projects() {
     <section className={styles.projects}>
       <h2>Projetos</h2>
       {repositories.length > 0 ? (
-        <section className={styles.container}>
+        <section className={styles.projects_container}>
           {repositories.map((repo) => (
             <Card
               key={repo.id}

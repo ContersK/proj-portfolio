@@ -8,6 +8,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 1.5rem;
   margin-block: 1rem;
+  gap: 30px; /* Espaçamento entre os cards */
+  padding: 20px 0; /* Espaçamento interno (opcional) */
 }
