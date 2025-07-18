@@ -12,7 +12,7 @@ function Projects() {
       try {
         setLoading(true);
         const response = await fetch(
-          "https://api.github.com/users/ContersK/repos"
+          "https://api.github.com/users/ContersK/repos?page=1&per_page=10"
         );
 
         if (!response.ok) {
