@@ -1,0 +1,13 @@
+.projects h2 {
+  text-align: center;
+}
+
+.projects_container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-block: 1rem;
+}

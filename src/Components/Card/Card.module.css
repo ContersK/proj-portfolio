@@ -1,0 +1,56 @@
+.Card {
+  height: 300px;
+  width: 300px;
+  background-color: var(--gray);
+  color: gray;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Card h3 {
+  font-size: 1.5rem;
+  color: var(--primary);
+}
+
+.Card p {
+  font-size: 1rem;
+  color: var(--secondary);
+}
+
+.Card .card_footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.card_footer_icons {
+  display: flex;
+  gap: 10px;
+  font-size: 1.5rem;
+  color: var(--terceary);
+}
+
+.button {
+  background-color: var(--primary);
+  color: var(--soft-white);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button:hover {
+  background-color: var(--red);
+  transition: all 0.5s ease-in-out;
+}

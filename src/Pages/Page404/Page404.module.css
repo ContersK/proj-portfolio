@@ -1,0 +1,24 @@
+.titulo2 {
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.textos {
+  display: flex;
+  align-items: center;
+  flex-direction: center;
+  flex-direction: column;
+}
+
+.texto_grande,
+.texto_vermelho {
+  font-size: 300px;
+  color: var(--red);
+  font-weight: bold;
+}
+
+.texto_vermelho {
+  font-size: 1.4rem;
+}
